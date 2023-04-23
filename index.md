@@ -6,7 +6,7 @@
 
 ### Set up the ReplIt environment
 
-Go to (https://replit.com/@ildarakhmetov0/PlotlyDashWorkshopDev).
+Go to <https://replit.com/@ildarakhmetov0/PlotlyDashWorkshopDev>.
 
 Create a ReplIt account if you don't have one.
 
@@ -20,7 +20,7 @@ Click on the **"Run"** button to start the server.
 
 You'll see the following message in the console:
 
-```bash
+```txt
 Dash is running on http://0.0.0.0:80/
 
  * Serving Flask app 'main'
@@ -124,6 +124,6 @@ Run the app to see the result!
 
 ### What's Next?
 
-You can find the final version of the app here: (https://github.com/ildarakhmetov/energy-hackathon-2023-tutorial/blob/main/final_version.py).
+You can find the final version of the app here: <https://github.com/ildarakhmetov/energy-hackathon-2023-tutorial/blob/main/final_version.py>.
 
-Explore the Plotly Dash documentation to learn more about the components and the layout: (https://dash.plotly.com/).
+Explore the Plotly Dash documentation to learn more about the components and the layout: <https://dash.plotly.com/>.
