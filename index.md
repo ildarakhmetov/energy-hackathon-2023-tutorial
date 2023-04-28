@@ -31,6 +31,13 @@ You'll also see the Webview open in a new tab. Copy the URL from the address bar
 
 ### Version 2: Loading Data
 
+We'll need Pandas and Plotly Express to load and visualize the data. Let's import them.
+
+```python
+import pandas as pd
+import plotly.express as px
+```
+
 Let's read the data. We'll be using the [Data on Energy by Our World in Data](https://github.com/owid/energy-data) dataset.
 
 ```python
@@ -40,7 +47,7 @@ df = pd.read_csv(
 )
 ```
 
-We will filter the data by country. Let's compare the coal production in Canada and the China.
+We will filter the data by country. Let's compare the coal production in Canada and China.
 
 ```python
 df_filtered = df[df['country'].isin(['Canada', 'China'])]
